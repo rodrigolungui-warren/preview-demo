@@ -5,3 +5,6 @@ update_configs:
   - package_manager: "javascript"
     directory: "/"
     update_schedule: "daily"
+  allowed-updates:
+    - match:
+      dependency_name: "express"
